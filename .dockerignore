@@ -1,0 +1,16 @@
+# will exclude the files that docker does not need to be concerned with 
+#GIt 
+.git 
+.gitignore
+
+#DOCKER
+.docker
+
+#python 
+app/__pycache__/
+app/*/__pycache__/
+app/*/*/__pycache__/
+app/*/*/*/__pycache__/
+.env/
+.venv/
+venv/
